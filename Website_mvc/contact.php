@@ -17,22 +17,22 @@ include 'inc/slider.php';
     	<div class="section group">
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
-				  	<h2>Contact Us</h2>
+				  	<h2>Liên hệ chúng tôi</h2>
 					    <form>
 					    	<div>
-						    	<span><label>NAME</label></span>
+						    	<span><label>Tên</label></span>
 						    	<span><input type="text" value=""></span>
 						    </div>
 						    <div>
-						    	<span><label>E-MAIL</label></span>
+						    	<span><label>Email</label></span>
 						    	<span><input type="text" value=""></span>
 						    </div>
 						    <div>
-						     	<span><label>MOBILE.NO</label></span>
+						     	<span><label>Điện thoại</label></span>
 						    	<span><input type="text" value=""></span>
 						    </div>
 						    <div>
-						    	<span><label>SUBJECT</label></span>
+						    	<span><label>Chủ thể</label></span>
 						    	<span><textarea> </textarea></span>
 						    </div>
 						   <div>

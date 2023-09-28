@@ -25,6 +25,7 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	background:url(../images/body_bg3.jpg);
 }
+
 .wrap{
 	width:78%;
 	margin:0 auto;
@@ -1395,7 +1396,7 @@ p.note{
   border-bottom: 1px solid #ddd;
   font-size: 30px;
   margin-bottom: 20px;
-  width: 141px;
+  width: 500px;
 }
 .tblone {
   border: 1px solid #fff;
@@ -1444,9 +1445,10 @@ table.tblone img {
   float: left;
   text-align: center;
   width: 610px;
+  
 }
-.shopleft img{outline:none}
-.shopleft a,.shopright a{outline:none}
+.shopleft img{outline:none;}
+.shopleft a,.shopright a{outline:none;}
 
 .shopright img {
   width: 270px;
@@ -2474,4 +2476,15 @@ p.terms {
 		width:92%;
 		padding:4%;
 	}
+}
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.button_details input[type-submit] {
+	float: left;
+	margin: 5px;
 }

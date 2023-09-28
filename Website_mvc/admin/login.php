@@ -14,14 +14,14 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-<title>Login</title>
+<title>Đăng nhập</title>
     <link rel="stylesheet" type="text/css" href="css/stylelogin.css" media="screen" />
 </head>
 <body>
 <div class="container">
 	<section id="content">
 		<form action="login.php" method="post">
-			<h1>Admin Login</h1>
+			<h1>Đăng nhập quản trị viên</h1>
 			<span><?php
 			if (isset($login_check)) {
 				echo $login_check;

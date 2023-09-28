@@ -2,13 +2,13 @@
 <?php include 'inc/sidebar.php';?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Update Site Title and Description</h2>
+        <h2>Cập nhật tiêu đề và mô tả trang web</h2>
         <div class="block sloginblock">               
          <form>
             <table class="form">					
                 <tr>
                     <td>
-                        <label>Website Title</label>
+                        <label>Tiêu đề website</label>
                     </td>
                     <td>
                         <input type="text" placeholder="Enter Website Title..."  name="title" class="medium" />
@@ -16,7 +16,7 @@
                 </tr>
 				 <tr>
                     <td>
-                        <label>Website Slogan</label>
+                        <label>Khẩu hiệu trang web</label>
                     </td>
                     <td>
                         <input type="text" placeholder="Enter Website Slogan..." name="slogan" class="medium" />

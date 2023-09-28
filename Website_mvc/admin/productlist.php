@@ -15,7 +15,7 @@
 ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2>Product List</h2>
+        <h2>Danh sách sản phẩm</h2>
         <div class="block">  
 			<?php
 			if(isset($delpro)) {
@@ -26,14 +26,14 @@
 			<thead>
 				<tr>
 					<th>ID</th>
-					<th>Product Name</th>
-					<th>Product Price</th>
-					<th>Product Image</th>
-					<th>Category</th>
-					<th>Brand</th>
-					<th>Description</th>
-					<th>Type</th>
-					<th>Action</th>
+					<th>Tên sản phẩm</th>
+					<th>Giá sản phẩm</th>
+					<th>Ảnh sản phẩm</th>
+					<th>Danh mục</th>
+					<th>Thương hiệu</th>
+					<th>Mô tả</th>
+					<th>Kiểu</th>
+					<th>Hoạt động</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -47,7 +47,7 @@
 				<tr class="odd gradeX">
 					<td><?php echo $i ?></td>
 					<td><?php echo $result['productName'] ?></td>
-					<td><?php echo $result['price'] ?></td>
+					<td><?php echo $fm->format_currency($result['price']) ?></td>
 					<td><img src ="uploads/<?php echo $result['image']?>" width="80"></td>
 					<td><?php echo $result['catName'] ?></td>
 					<td><?php echo $result['brandName'] ?></td>
@@ -59,7 +59,7 @@
 							echo 'Non-feathered';
 						}
 					?></td>
-					<td><a href="productedit.php?productid=<?php echo $result['productId'] ?>">Edit</a> || <a href="?productid=<?php echo $result['productId'] ?>">Delete</a></td>
+					<td><a href="productedit.php?productid=<?php echo $result['productId'] ?>">Sửa</a> || <a href="?productid=<?php echo $result['productId'] ?>">Xóa</a></td>
 				</tr>
 				<?php
 					}

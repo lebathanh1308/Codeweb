@@ -17,26 +17,26 @@
                 <li><a class="menuitem">Sản phẩm</a>
                     <ul class="submenu">
                         <li><a href="productadd.php">Thêm sản phẩm</a> </li>
-                        <li><a href="productlist.php">Liệt kê sản phẩm</a> </li>
+                        <li><a href="productlist.php">Danh sách sản phẩm</a> </li>
                     </ul>
                 </li>
-                <li><a class="menuitem">Site Option</a>
+                <li><a class="menuitem">Tùy chọn trang web</a>
                     <ul class="submenu">
-                        <li><a href="titleslogan.php">Title & Slogan</a></li>
-                        <li><a href="social.php">Social Media</a></li>
-                        <li><a href="copyright.php">Copyright</a></li>                      
+                        <li><a href="titleslogan.php">Tiêu đề và khẩu hiệu</a></li>
+                        <li><a href="social.php">Truyền thông xã hội</a></li>
+                        <li><a href="copyright.php">Bản quyền</a></li>                      
                     </ul>
                 </li>				
-                <li><a class="menuitem">Update Pages</a>
+                <li><a class="menuitem">Cập nhật trang</a>
                     <ul class="submenu">
-                        <li><a>About Us</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a>Về chúng tôi</a></li>
+                        <li><a>Liên hệ chúng tôi</a></li>
                     </ul>
                 </li>
-				<li><a class="menuitem">Slider Option</a>
+				<li><a class="menuitem">Tùy chọn thanh trượt</a>
                     <ul class="submenu">
-                        <li><a href="addslider.php">Add Slider</a> </li>
-                        <li><a href="sliderlist.php">Slider List</a> </li>
+                        <li><a href="addslider.php">Thêm thanh trượt</a> </li>
+                        <li><a href="sliderlist.php">Danh sách thanh trượt</a> </li>
                     </ul>
                 </li>
             </ul>

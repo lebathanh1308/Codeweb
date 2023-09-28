@@ -1,8 +1,9 @@
 <?php
-    include_once '../lib/session.php';
+    $filepath = realpath(dirname(__FILE__));
+    include ($filepath. '/../lib/session.php');
     Session::checkLogin();
-    include_once '../lib/database.php';
-    include_once '../helpers/format.php';
+    include_once ($filepath. '/../lib/database.php');
+    include_once ($filepath. '/../helpers/format.php');
 ?>
 
 <?php
@@ -28,7 +29,7 @@
             $adminPass = mysqli_real_escape_string($this->db->link, $adminPass);
 
             if (empty($adminUser) || empty($adminPass)) {
-                $alert = "User and Pass must be not empty";
+                $alert = "Người dùng và Mật khẩu không được trống";
                 return $alert;
             } else {
                 $query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$adminPass'";
@@ -42,7 +43,7 @@
                     Session::set('adminName', $value['adminName']);
                     header('Location:index.php');
                 } else {
-                    $alert = "User and Pass not match";
+                    $alert = "Người dùng và Mật khẩu không khớp";
                     return $alert;
                 }
             }

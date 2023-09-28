@@ -2,9 +2,9 @@
 <?php include 'inc/sidebar.php';?>
         <div class="grid_10">
             <div class="box round first grid">
-                <h2> Dashbord</h2>
+                <h2>Trang admin</h2>
                 <div class="block">               
-                  Welcome admin panel        
+                  Chào mừng ban quản trị        
                 </div>
             </div>
         </div>
